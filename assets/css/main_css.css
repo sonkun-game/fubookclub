@@ -1,0 +1,29 @@
+
+
+
+/* Font-weight */
+
+/* Font-size */
+.fs-16 {
+  font-size: 16px;
+}
+
+/* Color */
+.c_white {
+  color: white !important;
+}
+
+.c_fbc_pink {
+  color: #f1b1c1;
+}
+
+.c_fbc_pink_back {
+  background-color: #f1b1c1;
+}
+
+.c_fbc_pink_back_low_opacity {
+  background-color: rgba(241, 177, 193, 0.7);
+}
+
+/* Padding margin */
+
