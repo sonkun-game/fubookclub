@@ -1,9 +1,11 @@
 
 <template>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success pink" type="submit">Search</button>
     </form>
+  </div>
 </template>
 
 <script>

@@ -1,26 +1,28 @@
 <template>
   <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light c_fbc_pink_back_low_opacity ">
+    <nav class="navbar navbar-expand-lg navbar-light c_fbc_pink_back_low_opacity p-0">
       <div class="container-fluid">
-        <logo></logo>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- logo -->
+          <logo></logo>
+          <!-- search bar -->
           <search-bar> </search-bar>
-        </div>
       </div>
     </nav>
+    <!-- nav tab bar when you can change page -->
+    <tab></tab>
   </header>
 </template>
 
 <script>
 import Logo from './Logo.vue'
 import SearchBar from './SearchBar.vue'
+import Tab from './Tab.vue'
 
-test_main_js();
 
-  export default {
-  components: { SearchBar, Logo },
-    name: "Header"
-  }
+export default {
+components: { SearchBar, Logo, Tab },
+  name: "Header"
+}
 </script>
 
 <style scoped>

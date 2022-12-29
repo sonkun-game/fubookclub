@@ -1,0 +1,9 @@
+.list-fub {
+  color: gray;
+  background-color: white;
+}
+
+.list-fub:focus, .list-fub:hover {
+  color: white;
+  background-color: #f1b1c1;
+}
