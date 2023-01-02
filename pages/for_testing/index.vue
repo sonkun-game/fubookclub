@@ -1,12 +1,18 @@
 <template>
-
+  <div>
+    <BodyContent />
+  </div>
 </template>
 
 
 <script>
-export default ({
-  name: "MainPage",
-  layout: 'main_layout'
+import BodyContent from '~/components/Body/BodyContent.vue'
 
+export default ({
+  layout: 'main_layout',
+  components: {
+    BodyContent
+  },
 })
 </script>
+

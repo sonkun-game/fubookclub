@@ -9,7 +9,7 @@
       </div>
     </nav>
     <!-- nav tab bar when you can change page -->
-    <tab></tab>
+    <!-- <tab></tab> -->
   </header>
 </template>
 
@@ -27,8 +27,9 @@ components: { SearchBar, Logo, Tab },
 
 <style scoped>
   header{
-    position: fixed;
-    top: 0px;
+    display: block;
+    /* position: fixed;
+    top: 0px; */
     z-index: 9999;
     width: 100%;
   }
