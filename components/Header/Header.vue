@@ -8,19 +8,16 @@
           <search-bar> </search-bar>
       </div>
     </nav>
-    <!-- nav tab bar when you can change page -->
-    <!-- <tab></tab> -->
   </header>
 </template>
 
 <script>
 import Logo from './Logo.vue'
 import SearchBar from './SearchBar.vue'
-import Tab from './Tab.vue'
 
 
 export default {
-components: { SearchBar, Logo, Tab },
+components: { SearchBar, Logo },
   name: "Header"
 }
 </script>
