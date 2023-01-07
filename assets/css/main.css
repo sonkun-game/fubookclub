@@ -1,7 +1,11 @@
 
 
 
-/* Font-weight */
+/* Font-family */
+@font-face {
+  font-family: 'rowdies';
+  src: url('~@/assets/fonts/Rowdies/Rowdies-Regular.ttf') format('truetype');
+}
 
 /* Font-size */
 .fs-16 {
@@ -27,3 +31,8 @@
 
 /* Padding margin */
 
+
+/* Custom width */
+.w-5 {
+  width: 5%
+}
