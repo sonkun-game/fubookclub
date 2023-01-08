@@ -12,7 +12,8 @@ export default {
 .black_bg {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
+    top:0;
     /* background-color: black; */
     /* black top */
     /* background: rgb(0,0,0);
