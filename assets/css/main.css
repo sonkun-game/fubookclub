@@ -11,6 +11,18 @@
 .fs-16 {
   font-size: 16px;
 }
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-64 {
+  font-size: 64px;
+}
+.fs-72 {
+  font-size: 72px;
+}
 
 /* Color */
 .c_white {
