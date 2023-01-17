@@ -48,3 +48,23 @@
 .w-5 {
   width: 5%
 }
+
+/* Not allow drag or select  */
+.not_allow_select {
+  /* not select */
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  /* not drag */
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.hidden {
+  display: none;
+}
