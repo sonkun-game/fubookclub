@@ -2,7 +2,7 @@
   <div>
     <HeaderHome></HeaderHome>
     <Background></Background>
-    <div class="w-100 h-min-50"></div>
+    <div class="w-100"></div>
     <nuxt></nuxt>
   </div>
 </template>
