@@ -1,8 +1,8 @@
 
 <template>
-    <div>
+    <div class="img-container">
         <ImageBase custom_class="bg" name="bg.jpg" type="bg" alt="Logo Image"> </ImageBase>
-        <BlackBase></BlackBase>
+        <!-- <BlackBase></BlackBase> -->
     </div>
 </template>
 
@@ -20,11 +20,14 @@ export default {
 </script>
 
 <style scoped>
+.img-container {
+    height: 10vh;
+}
 .bg {
   width: 100%;
   position: fixed;
   overflow: hidden;
-  top: -57vh;
+  top: -300px;
   left: 0;
 }
 </style>

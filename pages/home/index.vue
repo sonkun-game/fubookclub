@@ -1,16 +1,17 @@
 <template>
   <div>
-    <BodyHome></BodyHome>
+    <BodyHomeV2></BodyHomeV2>
   </div>
 </template>
 
 <script>
 import BodyHome from '~/components/Body/BodyHome.vue'
+import BodyHomeV2 from '~/components/Body/BodyHomeV2.vue';
 
 export default {
-  layout: 'main_layout',
   components: {
-    BodyHome
+    BodyHome,
+    BodyHomeV2
   }
 }
 </script>

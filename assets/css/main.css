@@ -6,6 +6,27 @@
   font-family: 'rowdies';
   src: url('~@/assets/fonts/Rowdies/Rowdies-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'marzo';
+  src: url('~@/assets/fonts/Marzo/FontsFree-Net-marzo.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'playfair';
+  src: url('~@/assets/fonts/Playfair/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'bradon';
+  src: url('~@/assets/fonts/Bradon/._Brandon_thin.otf') format('truetype');
+}
+@font-face {
+  font-family: 'aboreto';
+  src: url('~@/assets/fonts/Aboreto/Aboreto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'liontype';
+  src: url('~@/assets/fonts/Liontype/Linotype_didot_roman.ttf') format('truetype');
+}
+
 
 /* Font-size */
 .fs-16 {
@@ -72,6 +93,12 @@
 .mb-8 {
   margin-bottom: 8px;
 }
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -113,13 +140,20 @@
 }
 
 /* Make text in div center */
-.text_center {
+.text_center, .text_center_horizontal {
   display: flex;
-  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
+.text_center {
+  flex-direction: column;
+}
+.text_center_horizontal {
+  flex-direction: row;
+}
+
+
 
 .hidden {
   display: none;
